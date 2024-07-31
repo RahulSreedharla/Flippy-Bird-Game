@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>   
+        /* instructions */
+        .instructions li {
+            list-style-type: none;
+            /* text-align: start; */
+            position: relative;
+        }
+
+        a button{
+            margin-left: 100px;
+            height: 35px;
+            width: 120px;
+            padding: 5px;
+            border-radius: 20px;
+            border: none;
+            background-color: rgb(58, 95, 244);
+            color: white;
+        }
+
+        @media(min-width: 450px){
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="instructions" >
+        <h1>For Laptop users</h1>
+        <p>
+            Hit any of the following keys to start the game
+            <ul>
+                <li>spacebar</li>
+                <li>upward arrow</li>
+                <li>letter x</li>
+                <li>letter y</li>
+            </ul>
+        </p>
+
+        <h1>For Mobile users</h1>
+        <p>Tap the screen to start the game</p>
+        <a href="game.html"><button>Play Game</button></a>
+</body>
+</html>
